@@ -1,0 +1,49 @@
+package com.question1;
+
+ class Node
+{
+	int data;
+	Node next;
+	
+	public Node(int data) {
+		this.data=data;
+		this.next=null;
+	}
+}
+
+
+public class Linkedlist {
+   
+	Node headNode=null;
+  
+	public Linkedlist() {
+		 
+	    headNode=new Node(3);
+		
+       
+		
+	}
+	
+	public boolean checkcycle()
+	{
+		Node slow=headNode;
+        Node fast=headNode;
+        boolean check=false;
+        
+        while(fast!=null && fast.next!=null)
+        {
+            slow=slow.next;
+            fast=fast.next.next;
+            
+            if(slow == fast)
+            {
+                check=true;
+                break;
+            }
+        }
+         
+        
+        return check;
+	}
+	
+}

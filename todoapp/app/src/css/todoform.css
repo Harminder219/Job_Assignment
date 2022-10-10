@@ -1,0 +1,60 @@
+.myform
+{
+    height: 120px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid black;
+    background-color: #e80dce;
+    color: white;
+    
+}
+
+.inputcontrol
+{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      
+}
+
+input
+{
+    color: white;
+    border: 0;
+    outline: none;
+    margin-top: 5px;
+    font-size: 15px;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+}
+
+.taskbtn
+{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin:10px 0 0 5px;
+    border: 0;
+    border-radius: 5px;
+    width: 90%;
+    
+}
+
+@media screen and (max-width:384px) {
+
+    .myform
+    {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width:276px) {
+
+    .myform
+    {
+        width: 150px;
+    }
+    
+}

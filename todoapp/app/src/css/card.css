@@ -1,0 +1,62 @@
+
+
+.card
+{
+    
+ 
+   
+    width: 300px;
+    height: 180px;
+    margin: 20px 30px 10px 0;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background-color: rgb(43, 76, 226);
+    border-radius:20px;
+    box-shadow: 10px 10px 20px black;
+    transition: all 0.5s;
+}
+
+.card:hover
+{
+    transform: scale(0.95);
+}
+
+
+.edit,.delete
+{
+    
+    padding: 5px 10px;
+    margin:20px 0 0 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+
+.title
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button:active
+{
+    background-color: yellow;
+}
+
+
+
+.edit
+{
+    
+    background-color: coral;
+}
+.delete
+{
+  
+    background-color: rgb(205, 10, 114);
+}
